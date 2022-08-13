@@ -1,0 +1,52 @@
+.form-wraper {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form {
+    max-width: 700px;
+    width: 100%;
+    height: 60px;
+    color: blue;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 400;
+    /* border-radius: 20px; */
+    border:none;
+    border-bottom: 2px solid red;
+}
+.input-form:focus,
+.textarea-form:focus {
+    outline: none;
+}
+.input-form::placeholder,
+.textarea-form::placeholder {
+    color:blueviolet;
+    font-size: 14px;
+    text-transform: lowercase;
+    font-style: normal;
+}
+.input-form[type=password] {
+    background-color: lightblue;
+}
+.submit {
+    background-color: blueviolet;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    color: #fff;
+    margin-top: 50px;
+    border: none;
+}
+.form-registration {
+    margin-left: 50px;
+}
+.textarea-form {
+    max-width: 700px;
+    width: 100%;
+    height: 200px;
+    resize: none;
+    color:red;
+    
+}
